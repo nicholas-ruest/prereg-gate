@@ -1,0 +1,14 @@
+schema_version = 1
+experiment_id = "battery-cycle-042"
+
+[[controls]]
+metric = "reference_voltage"
+expected = 3.700
+tolerance = 0.010
+min_samples = 2
+
+[[predictions]]
+metric = "capacity_retention_pct"
+expected = 95.0
+tolerance = 2.0
+min_samples = 3
